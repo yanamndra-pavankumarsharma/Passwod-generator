@@ -7,3 +7,4 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('password/', views.passgen, name='passgen'),  # URL for the password generator
 ]
+
