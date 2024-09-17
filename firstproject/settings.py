@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ri%he)ug*6zz9yq2k(7bpjc40300&9&7e3@!r*q)++4jga=oj7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ '.versel.app' ]
 
 
 # Application definition
@@ -123,3 +123,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
